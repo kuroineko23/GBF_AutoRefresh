@@ -1,0 +1,16 @@
+{
+    "name": "GBF_AutoRefresh",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Granblue Fantasy Auto Refresh",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "devtools_page": "index.html",
+    "options_ui": {
+      "page": "option.html",
+      "open_in_tab": false
+    }
+  }
+  
