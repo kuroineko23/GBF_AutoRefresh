@@ -1,5 +1,5 @@
 const regex_battle_end = new RegExp("https:\/\/((game\.granbluefantasy)|(gbf\.game\.mbga))\.jp\/resultmulti\/content\/index\/*");
-const regex_normal_attack = new RegExp("https:\/\/((game\.granbluefantasy)|(gbf\.game\.mbga))\.jp\/rest/multiraid/normal_attack_result.json")
+const regex_normal_attack = new RegExp("https:\/\/((game\.granbluefantasy)|(gbf\.game\.mbga))\.jp\/rest\/multiraid\/normal_attack_result.json")
 var url = ""
 chrome.storage.sync.get('redirect', (data) => {
     url = data.redirect
