@@ -5,12 +5,21 @@
     "description": "Granblue Fantasy Auto Refresh",
     "permissions": [
       "tabs",
-      "storage"
+      "storage",
+      "webRequest"
     ],
-    "devtools_page": "index.html",
+    "host_permissions": [
+      "*://*.mbga.jp/*",
+      "*://*.game.jp/*",
+      "*://*.gbf.jp/*",
+      "*://*.granbluefantasy.jp/*"
+    ],
     "options_ui": {
       "page": "option.html",
       "open_in_tab": false
+    },
+    "background": {
+      "service_worker": "refresh.js"
     }
   }
   
